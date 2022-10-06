@@ -1,0 +1,178 @@
+@media (max-width:700px){
+    #main{
+        overflow-x: hidden;
+    }
+    #page1{
+        display: inline-block;
+    }
+    #page1 #left{
+        width: 100%;
+        height: 40%;
+    }
+    #page1 #left #text{
+        position: static;
+    }
+    #page1 #left #text h1{
+        font-family:druk;
+        font-size: 18vw;
+        letter-spacing: 5px;
+        line-height: 1;
+    }
+    #page1 #left #text h1 span{
+        font-size: 8vw;
+    }
+
+    #page1 #center{
+        width: 100%;
+        height: 20%;
+        background-color:transparent;
+    }
+    #page1 #center img{
+        position: absolute;
+        top: 25%;
+        left: 85%;
+        transform: translate(-50%,-50%);
+        width: 300px;
+    }
+
+    #page1 #right{
+        width: 100%;
+        height: 40%;
+    }
+    #page1 #right #text{
+        position: static;
+        opacity: 1;
+    }
+    #page1 #right #text h1{
+        font-size: 8vw;
+    }
+    #page1 #right #text h2{
+        font-size: 3vw;
+    }
+
+    
+/* ----------------------------------------------------------------------------------- */
+
+/* Page 2 */
+#page2{
+    display: inline-block;
+}
+#page2 #left{
+    width: 100%;
+    height: 30vh;
+}
+#page2 #left #text{
+    left: 0%;
+    width: 100%;
+    height: max-content;
+}
+#page2 #left #text h1{
+    font-size: 18vw;
+    font-family: druk;
+    letter-spacing: 5px;
+    line-height:1;
+}
+#page2 #center{
+    position: relative;
+    width: 100%;
+    height: 30vh;
+}
+#page2 #center img{
+    top: 35%;
+    left: 50%;
+    width: 350px;
+}
+#page2 #right{
+    width: 100%;
+    height: 40vh;
+}
+#page2 #right #text{
+    position: static;
+    width: 100%;
+    height: 100%;
+}
+#page2 #right #text h1{
+    font-size: 8vw;
+    line-height: 1;
+    font-family: yank;
+    padding: 20px 0;
+}
+#page2 #right #text h2{
+    font-size: 3vw;
+    text-align: left;
+    padding-left: 10px;
+    text-align: center;
+}
+
+/* ----------------------------------------------------------------------------------------------------------- */
+
+/* Page 3 */
+#page3{
+    display: inline-block;
+    background-color:black;
+}
+#page3 #left{
+    display: none;
+}
+#page3 #center{
+    width: 100%;
+    height: 50vh;
+}
+#page3 #center img{
+    position: static;
+    width: 100%;
+}
+#page3 #right{
+    width: 100%;
+    height: 50vh;
+}
+#page3 #right #text{
+    position: static;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    padding: 20px;
+}
+#page3 #right #text h1{
+    font-size: 15vw;
+    font-weight: 800;
+    color: white;
+    line-height: 1;
+}
+#page3 #right #text h1 span{
+    font-size: 10vw;
+    padding:0;
+    line-height: 1;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------ */
+
+/* Page 4 */
+#page4 img{
+    width: 90%;
+}
+#page4 h1{
+    font-size: 10vw;
+    text-align: center;
+}
+#page4 h2{
+    width:300px;
+    font-size: 4vw;
+}
+
+
+/* -------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+}

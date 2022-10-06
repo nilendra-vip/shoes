@@ -1,0 +1,320 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    /* height: 100vh; */
+}
+
+/* Page 1 */
+#page1{
+    width: 100%;
+    height: max-content;
+    background-color:black;
+    position: relative;
+    display: flex;
+}
+#page1 #left{
+    position: relative;
+    width: 47%;
+    height: 100vh;
+    /* background-color:rgb(58, 32, 32); */
+}
+#page1 #left #text{
+    position: absolute;
+    top: 20%;
+    left:6%;
+    width: 450px;
+    height: 400px;
+    /* background-color: blue; */
+    text-transform: uppercase;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+#page1 #left #text h1{
+    font-size: 7vw;
+    font-weight: 800;
+    line-height: 85px;
+}
+#page1 #left #text h1 span{
+    font-size: 3vw;
+    color: red;
+    font-weight: 300;
+    line-height: 10px;
+    opacity: .8;
+}
+#page1 #left #text h1 u{
+    text-decoration-color: red ;
+    text-decoration-thickness: 5px ;
+}
+
+#page1 #center{
+    width: 6%;
+    height: 100vh;
+    background-color:red;
+}
+#page1 #center img{
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+    width: 650px;
+    z-index: 1;
+}
+
+#page1 #right{
+    /* position: relative; */
+    width: 47%;
+    height: 100vh;
+    /* background-color:rgb(155, 52, 52); */
+}
+#page1 #right #text{
+    position: absolute;
+    top: 50%;
+    right: 150px;
+    width: 400px;
+    height: 250px;
+    /* background-color: blue; */
+    text-transform: uppercase;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    opacity: .7;
+}
+#page1 #right #text h1{
+    font-size: 2.5vw;
+    font-family: yank;
+    font-weight: 100;
+    color: red;
+    line-height: 1;
+}
+#page1 #right #text h1 span{
+    color: white;
+}
+#page1 #right #text h2{
+    font-size: 1vw;
+    font-weight: 300;
+    padding-top: 30px;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* Page 2 */
+
+#page2{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color:black;
+}
+#page2 #left{
+    position: relative;
+    width: 47%;
+    height: 100vh;
+    background-color:black;
+}
+#page2 #left #text{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    width: 900px;
+    height: 180px;
+    /* background-color: blue; */
+    text-transform: uppercase;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 2;
+}
+#page2 #left #text h1{
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 85px;
+    text-align: center;
+}
+#page2 #left #text h1 u{
+    text-decoration-color: red ;
+    text-decoration-thickness: 5px ;
+}
+#page2 #center{
+    /* position: relative; */
+    width: 6%;
+    height: 100vh;
+    /* background-color:red; */
+}
+#page2 #center img{
+    position: absolute;
+    top: 45%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+    width: 700px;
+    z-index: 1;
+}
+#page2 #right{
+    width: 47%;
+    height: 100vh;
+    background-color:black;
+}
+#page2 #right #text{
+    position: absolute;
+    bottom: 50px;
+    left: 420px;
+    width: 700px;
+    height: 100px;
+    text-align: center;
+    /* background-color: blue; */
+    text-transform: uppercase;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
+}
+#page2 #right #text h1{
+    font-size: 35px;
+    font-weight: 100;
+    color: white;
+    line-height: 35px;
+    font-family: yank;
+}
+#page2 #right #text h2{
+    font-size: 10px;
+    font-weight: 300;
+    padding-top: 10px;
+    opacity: .6;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+/* Page 3 */
+
+#page3{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color:black;
+}
+#page3 #left{
+    position: relative;
+    width: 47%;
+    height: 100%;
+    /* background-color:yellow; */
+}
+/* #page3 #left img{
+    width: 900px;
+    position: absolute;
+    top: 65%;
+    left: 65%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+} */
+
+#page3 #center{
+    /* position: relative; */
+    width: 6%;
+    height: 100%;
+    /* background-color:red; */
+}
+#page3 #center img{
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    width: 70%;
+    z-index: 1;
+}
+#page3 #right{
+    width: 47%;
+    height: 100%;
+    /* background-color:black; */
+}
+#page3 #right #text{
+    position: absolute;
+    bottom: 60px;
+    right:200px;
+    width: 500px;
+    height: 300px;
+    /* background-color: blue; */
+    text-transform: uppercase;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
+}
+#page3 #right #text h1{
+    font-size: 100px;
+    font-weight: 800;
+    color: white;
+    line-height: 80px;
+}
+#page3 #right #text h1 span{
+    color: red;
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 10px;
+    opacity: .7;
+    line-height: 10px;
+}
+#page3 #right #text h1 u{
+    text-decoration-color:red ;
+    text-decoration-thickness: 5px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* Page 4 */
+
+#page4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    width: 100%;
+    height: 100vh;
+    background-color:black;
+}
+
+#page4 img{
+    width: 30%;
+    z-index: 1;
+}
+#page4 h1{
+    font-size: 4vw;
+    font-weight: 200;
+    color: white;
+    font-family: yank;
+    line-height: 45px;
+    text-transform: capitalize;
+}
+#page4 h2{
+    width: 500px;
+    font-size: 1.2vw;
+    font-weight: 600;
+    font-family: gilroy;
+    text-align: center;
+    opacity: .7;
+    color: white;
+}
+#page4 #right #text h1 u{
+    text-decoration-color:red ;
+    text-decoration-thickness: 5px;
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
