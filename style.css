@@ -1,3 +1,17 @@
+@font-face {
+    font-family: yank;
+    src: url(./fonts/yank-webfont.ttf);
+}
+@font-face {
+    font-family: druk;
+    src: url(./fonts/Druk\ Bold\ Regular.ttf);
+}
+@font-face {
+    font-family: gilroy;
+    src: url(./fonts/Gilroy-Regular.otf);
+}
+
+
 *{
     margin: 0%;
     padding: 0%;
